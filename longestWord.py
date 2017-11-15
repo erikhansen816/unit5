@@ -7,9 +7,9 @@ words = input('Enter a list of words: ').split(' ')
 
 l = 0
 word = ""
-for w in words:
-    length = len(w)
-    if length > l:
-        l = length
-        word = w
+for h in words:
+    lenn = len(h)
+    if lenn > l:
+        l = lenn
+        word = h
 print("The longest word is", word)
