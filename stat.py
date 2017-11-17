@@ -10,7 +10,6 @@ while num != 'q':
 
 
 del l[len(l)-1]
-print(l)
 
 l1 = []
 for n in l:
