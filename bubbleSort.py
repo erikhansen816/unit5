@@ -26,7 +26,7 @@ end procedure"""
 
 def mySort(A):
     n = len(A)
-    swapped = False
+    swapped = True
     while swapped == False:
         for i in range(1,n):
             if A[i-1] > A[i]:
