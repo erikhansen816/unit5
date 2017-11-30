@@ -27,12 +27,13 @@ end procedure"""
 def mySort(A):
     n = len(A)
     swapped = True
-    while swapped == False:
+    while swapped:
+        swapped = False
         for i in range(1,n):
             if A[i-1] > A[i]:
                 A[i-1], A[i] = A[i], A[i-1]
                 swapped = True
-    print(A)
+    swapped = False
     return A
 
 if __name__ == '__main__':
